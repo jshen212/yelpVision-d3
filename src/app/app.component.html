@@ -2,6 +2,9 @@
     {{title}}
 </h1>
 
-<div class="input-group-lg">
-    <input type="text" class="form-control" placeholder="City" aria-describedby="sizing-addon1" #city_name (keyup)="saveVal(city_name.value)">
+<div class="input-group-lg container">
+    <input type="text" class="form-control" placeholder="City" aria-describedby="sizing-addon1" #city_name>
+    <div class="submit-button">
+        <button type="button" class="btn btn-primary" (click)="submitVal(city_name.value)">Submit</button>
+    </div>
 </div>
