@@ -6,11 +6,16 @@
 
 # dependencies
 /node_modules
+<<<<<<< HEAD
+=======
+/bower_components
+>>>>>>> 449f1c33883a2c95040a7d725e51ce17fa874f0f
 
 # IDEs and editors
 /.idea
 .project
 .classpath
+<<<<<<< HEAD
 .c9/
 *.launch
 .settings/
@@ -22,6 +27,11 @@
 !.vscode/launch.json
 !.vscode/extensions.json
 
+=======
+*.launch
+.settings/
+
+>>>>>>> 449f1c33883a2c95040a7d725e51ce17fa874f0f
 # misc
 /.sass-cache
 /connect.lock
